@@ -1,2 +1,2 @@
 
-print("Hello Yasin!!!")
+print("Cron worked!!!")
