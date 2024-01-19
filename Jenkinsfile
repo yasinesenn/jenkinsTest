@@ -24,11 +24,7 @@ pipeline {
                 cd myapp
                 python3 hello.py
                 python3 hello.py --name=Yasin
-                '''
-                mail to: 'esenyasinemin@gmail.com',
-                subject: 'Node Offline: your-node-name',
-                body: 'The node "your-node-name" is offline. Please check and restart it.'
-                
+                '''    
             }
         }
         stage('Deliver') {
